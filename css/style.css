@@ -52,11 +52,13 @@ body{
     height: 55px;
     background-color: var(--color-3);
     width: 260px;
+    top: 300px;
     border-radius: 30px;
-    margin-left: 0px;
+    margin-left: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 
