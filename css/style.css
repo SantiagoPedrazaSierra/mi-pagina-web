@@ -1,6 +1,96 @@
-@import url(variable.css);
+@import url(variables.css);
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+
+
+body{
+    background: url(/storage/img/unsplash_xB4ExGcUai0.png) no-repeat;
+    background-size: cover ;
+    
+}
+
+.imgflex{
+    position: absolute;
+    padding-left: 75.83%;
+    top: 10%;
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 19.72%;
+    height: 20.06%;
+
+    
+}
+
+.flextext{
+    position: absolute;
+    top: 28.5%;
+    left: 4.44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 41.04%;
+    height: auto ;
+    backdrop-filter: blur(20px);
+    border-radius: 48px;
+    padding-bottom: 6.03%;
+    
+
+    background: linear-gradient(180deg, 
+        rgba(0, 0, 0, 0.35) 0%,
+        rgba(0, 0, 0, 0.35),63%,
+        rgba(0, 0, 0, 0)100%
+        );
+        
+        
+        
+    p:nth-child(1){
+        font-family: "Montserrat-Regular";
+        font-size:  1.5vw;
+        color: var(--color-1);
+        padding: 7.03% 0px 0px 3.33vw;
+    }
+    
+    h1{
+        
+        font-family: "Montserrat-SemiBold";
+        font-size: 5vw;
+        color: var(--color-1);
+        padding: 0px 2.75vw 0px 3.33vw;
+        
+        
+    }
+    
+    
+    p{
+        font-family: "Montserrat-Regular";
+        font-size: clamp(16px, 1.66vw, 40px);
+        color: var(--color-1);
+        padding: 0px 3.33vw 0px 3.33vw;
+        line-height: 1.29em;
+        font-weight: 100;
+    }
+    
+    button{
+        position: relative;
+        background-color: var(--color-2);
+        color: var(--color-1);
+        border-radius: 40px ;
+        left: 3.33vw;
+        font-family: "Montserrat-Medium";
+        font-size: 1.52vw;
+        padding: 2.34% 0 2.34% 0;
+        width: 17.5vw;
+        height: auto;
+        cursor: pointer;
+        border: none; 
+    }
+    
+
+    
+
 }
