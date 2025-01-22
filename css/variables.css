@@ -13,3 +13,8 @@
     font-family: "Lato-SemiBold";
     src: url(../storage/font/Lato-Semibold.ttf);
 }
+
+@font-face {
+    font-family: "Lato-Medium";
+    src: url(../storage/font/Lato-Medium.ttf);
+}
