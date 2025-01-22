@@ -1,6 +1,175 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.containertext {
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.containertext h1{
+    width: 530px;
+    font-family: "Lato-Semibold";
+    font-size: 60px;
+    color: var(--color-3);
+}
+
+.containertext p{
+    width: 350px;
+    font-family: "Lato-Regular";
+    font-size: 17px;
+    color: var(--color-3);
+}
+
+.containertext button{
+    font-family: "Lato-Medium" ;
+    font-size: 17px;
+    color: var(--color-1);
+    width:  180px;
+    height: 50px;
+    background-color:var(--color-3) ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.containerlist{
+    position: absolute;
+    left: 100px;
+    font-family: "Lato-Regular";
+    color: var(--color-3);
+}
+
+.onelist{
+    width: 200px;
+    height: 55px;
+    top: 70px;
+    font-size: 14px;
+    left: 750px;
+    position: absolute;
+}
+
+.img1 img{
+    width: 55px ;
+    height: 55px;
+    top: 70px;
+    left: 670px;
+    position: absolute;
+}
+
+
+.twolist{
+    width: 200px;
+    height: 55px;
+    top: 170px;
+    font-size: 14px;
+    left: 750px;
+    position: absolute;
+}
+
+.img2 img{
+    width: 55px ;
+    height: 55px;
+    top: 170px;
+    left: 670px;
+    position: absolute;
+}
+
+
+.threlist{
+    width: 200px;
+    height: 55px;
+    left: 750px;
+    top: 270px;
+    gap: 80px;
+    position: absolute;
+}
+
+.img3 img{
+    width: 55px ;
+    height: 55px;
+    top: 270px;
+    left: 670px;
+    position: absolute;
+}
+
+.fourlist{
+    width: 200px;
+    height: 55px;
+    left: 1050px;
+    top: 70px;
+    gap: 80px;
+    position: absolute;
+
+}
+
+.img4 img{
+    width: 55px ;
+    height: 55px;
+    top: 70px;
+    left: 970px;
+    position: absolute;
+}
+
+
+.fivelist{
+    width: 200px;
+    height: 55px;
+    left: 1050px;
+    top: 170px;
+    gap: 80px;
+    position: absolute;
+}
+
+.img5 img{
+    width: 55px ;
+    height: 55px;
+    top: 170px;
+    left: 970px;
+    position: absolute;
+}
+
+
+.sixlist{
+    width: 200px;
+    height: 55px;
+    left: 1050px;
+    top: 270px;
+    gap: 80px;
+    position: absolute;
+}
+
+.img6 img{
+    width: 55px ;
+    height: 55px;
+    top: 270px;
+    left: 970px;
+    position: absolute;
+}
+
+.containerimg{
+    display: flex;
+    position: absolute;
+    left: 170px;
+    bottom: 20px;
+    width: 1302px;
+    height: 250px;
+}
+
+
+    .containerimg1{
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    }
+
+    .containerimg4{
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    }
