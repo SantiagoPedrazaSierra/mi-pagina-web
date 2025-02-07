@@ -1,6 +1,84 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+/*********Parte izquierda********/
+.container_img {
+    display: flex;
+    margin-top: 67px;
+}
+.img_left {
+}
+
+/*********Parte izquierda********/
+.container_text {
+    display: flex;
+    padding: 80px  112px;
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 88px;
+}
+.text_main {
+    width: 500px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 64px;
+        color: var(--color-2);
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 28px;
+        color: var(--color-4);
+    }
+    button{
+        width: 158px;
+        height: 54px;
+        font-family: "Avenir-Roman";
+        font-size: 18px;
+        border-radius: 16px;
+        background: var(--color-2);
+        color: var(--color-1);
+        border: none;
+    }
+}
+.text_options {
+    width: 500px;
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color-3);
+}
+.option_1 {
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+    }
+}
+.option_2 {
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+    }
 }
