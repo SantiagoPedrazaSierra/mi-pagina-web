@@ -8,10 +8,10 @@
     src: url(../storage/font/PlayfairDisplay-Bold.ttf);
 }
 @font-face {
-    font-family: "PlayfairDisplay-Medium";
-    src: url(../storage/font/PlayfairDisplay-Medium.ttf);
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans-Medium.ttf);
 }
 @font-face {
-    font-family: "PlayfairDisplay-Regular";
-    src: url(../storage/font/PlayfairDisplay-Regular.ttf);
+    font-family: "WorkSans-Regular";
+    src: url(../storage/font/WorkSans-Regular.ttf);
 }

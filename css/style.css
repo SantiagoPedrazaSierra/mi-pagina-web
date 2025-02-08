@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 5%;
+
+
+}
+.container_left {
+    background: red;
+}
+.container_logo {
+}
+.container_text {
+    background: violet;
+    width: 653px;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    h1{
+        font-family: "PlayfairDisplay-Bold";
+        font-size: 64px;
+
+    }
+    p{
+        font-family: "PlayfairDisplay-Regular";
+        font-size: 24px;
+    }
+}
+.buttons {
+    button-ntd{
+
+    }
+}
+.container_list {
+}
+.lis_1 {
+}
+.lis_2 {
+}
+.lis_3 {
+}
+.lis_4 {
+}
+.container_rigth {
+    display: flex;
+
+}
+.container_img {
+    width: 635.31px;
+    height: 778.19px;
+
+}
