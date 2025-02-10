@@ -5,57 +5,107 @@
     box-sizing: border-box;
 }
 main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    margin: 5%;
-
+    display: flex;  
+    justify-content:center ;
+    position: relative;
+    padding: 100px;
 
 }
 .container_left {
-    background: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .container_logo {
+    display: flex;
+    justify-content: start;
 }
 .container_text {
-    background: violet;
     width: 653px;
     height: 460px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-left: 24px;
     h1{
         font-family: "PlayfairDisplay-Bold";
         font-size: 64px;
 
     }
     p{
-        font-family: "PlayfairDisplay-Regular";
+        font-family: "WorkSans-Regular";
         font-size: 24px;
     }
 }
 .buttons {
-    button-ntd{
-
+    
+    
+    button:nth-child(1){
+        background:var(--color-2) ;
+        color: var(--color-1);
+        border: none;
+        border-radius: 16px;
+        width: 219px;
+        height: 66px;
+        font-family: "WorkSans-Medium";
+        font-size: 24px;
+    }
+    button:nth-child(2){
+        background:var(--color-1) ;
+        color: var(--color-2);
+        outline: none;
+        border-radius: 16px;
+        width: 219px;
+        height: 66px;
+        font-family: "WorkSans-Medium";
+        font-size: 24px;
+        
+        
     }
 }
+
 .container_list {
+    width: 652px;
+    height: 118px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 24px;
+    border:  2px solid black;
+    gap: 70px;
+    padding: 24px;
+    justify-content:center;
+    align-items: center;
 }
 .lis_1 {
+    p{
+        font-family: "WorkSans-Regular";
+        font-size: 16px;
+    }
 }
 .lis_2 {
+    p{
+        font-family: "WorkSans-Regular";
+        font-size: 16px;
+    }
+    
 }
 .lis_3 {
+    p{
+        font-family: "WorkSans-Regular";
+        font-size: 16px;
+    }
 }
 .lis_4 {
+    p{
+        font-family: "WorkSans-Regular";
+        font-size: 16px;
+    }
 }
 .container_rigth {
     display: flex;
+    justify-content: center;
 
 }
 .container_img {
-    width: 635.31px;
-    height: 778.19px;
-
+    display: flex;
 }
