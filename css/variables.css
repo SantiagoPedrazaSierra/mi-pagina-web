@@ -1,6 +1,7 @@
 :root{ 
     --color-1: white;
-    --color-1: #363830;
+    --color-2: #363830;
+    --color-fondo:rgba(200, 204, 207, 1);
  }
 
  @font-face {
