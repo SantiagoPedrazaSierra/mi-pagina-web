@@ -1,6 +1,51 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background: linear-gradient(45deg, #AB2706, #9C2004);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+}
+.container_img {
+    display: flex;
+}
+.container_text {
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    padding-top:70px ;
+    padding-left:134px ;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 487px;
+    height: 674px;
+    h1{
+        font-family: "QWorkSans-Bold";
+        font-size: 88px;
+        color: var(--color-1);
+    }
+    p{
+        font-family: "WorkSans-Light";
+        font-size: 24px;
+        color: var(--color-1);
+    }
+    button{
+        width: 231px;
+        height: 82px;
+        border: none;
+        border-radius: 36px;
+        background: var(--color-3);
+        font-family: "WorkSans-Medium";
+        font-size: 32px;
+    }
 }
