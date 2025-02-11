@@ -5,23 +5,28 @@
     box-sizing: border-box;
 }
 body {
-    background: linear-gradient(45deg, #AB2706, #9C2004);
+    background-color: rgba(156, 32, 4, 1);
 }
-.main{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5%;
-    justify-content: center;
+.container_main{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 926px;
 }
 .container_img {
+    position: absolute;
     display: flex;
+    flex-direction: row;
+    top: 64px;
+    left: 64px;
 }
 .container_text {
-    width: 720px;
+    position: absolute;
+    width: 487px;
     display: flex;
     flex-direction: column;
-    padding-top:70px ;
-    padding-left:134px ;
+    top:134px ;
+    left:889px ;
 }
 .text {
     display: flex;
