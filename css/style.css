@@ -1,6 +1,99 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container_main {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.text_container {
+    position: absolute;
+    width: 637px;
+    height: 414px;
+    top: 144.33px;
+    left: 65px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 72px;
+        color: var(--color-2);
+    }
+    p{
+        font-family: "Avenir-Book";
+        font-size: 26px;
+        color: var(--color-4);
+        width: 586px;
+        height: 108px;
+    }
+    button{
+        background: var(--color-2);
+        color: var(--color-1);
+        font-family: "Avenir-Heavy";
+        font-size: 24px;
+        width: 182px;
+        height: 66px;
+        border: none;
+        border-radius: 36px;
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+    }
+
+}
+.container_imgs {
+}
+.img1 {
+    position: absolute;
+    display: flex;
+    top: 92px;
+    left: 828px;
+}
+.img2 {
+    position: absolute;
+    display: flex;
+    top: 226px;
+    left: 1053px;
+}
+.contaier_list {
+    background: var(--color-2);
+    position: absolute;
+    display: flex;
+    padding: 64px;
+    width: 1312px;
+    height: 298px;
+    top: 666.66px;
+    left: 64px;
+    border-radius: 40px;
+    gap: 118px;
+}
+.list {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    .title{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        img{
+            width: 24px;
+            height: 24px;
+        }
+        h1{
+            font-family: "Avenir-Heavy";
+            font-size: 26px;
+            color: var(--color-3);
+            
+        }
+    }
+    
+    p{
+        font-family: "Avenir-Book";
+        font-size: 24px;
+        color: var(--color-3);
+    }
 }
