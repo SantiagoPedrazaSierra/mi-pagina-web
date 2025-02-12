@@ -1,6 +1,118 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container_main {
+    background-image: url(../storage/img/13.svg);
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+}
+.container_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 637px;
+    height: 614px;
+    top: 231px;
+    left: 401.5px;
+    text-align: center;
+    align-items: center;
+    h1{
+        color: var(--color-2);
+        font-size: 112px;
+    }
+    p{
+        color: var(--color-2);
+        font-size: 24px;
+        width: 306px;
+        height: 128px;
+    }
+    button{
+        border-radius: 36px;
+        border: none;
+        background-color: var(--color-2);
+        color: var(--color-1);
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+        cursor: pointer;
+        width: 182px;
+        height: 66px;
+    }
+
+}
+.list1 {
+    position: absolute;
+    display: flex;
+    width: 434px;
+    height: 104px;
+    top: 99px;
+    left: 64px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-3);
+    gap: 8px;
+    h2{
+        font-size: 24px;
+    }
+    p{
+        font-size: 24px;
+    }
+}
+.list2 {
+    position: absolute;
+    display: flex;
+    width: 434px;
+    height: 104px;
+    top: 812px;
+    left: 942px;
+}
+.imgs_vectors {
+}
+.img1 {
+    position: absolute;
+    top: 64px;
+    left: 964px;
+}
+.img2 {
+    position: absolute;
+    top: 432px;
+    left: 64px;
+}
+.imgfond {
+    background: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    width: 446px;
+    height: 711px;
+    top: 182px;
+    left: 497px;
+}
+.star1 {
+    position: absolute;
+    top: 237px;
+    left: 311px;
+}
+.star2 {
+    position: absolute;
+    top: 535px;
+    left: 921px;
+}
+.party {
+    position: absolute;
+    top: 647px;
+    left: 1135px;
+}
+.explosion {
+    position: absolute;
+    top: 220px;
+    left: 83.88px;
 }
