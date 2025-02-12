@@ -1,6 +1,109 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+.container_main {
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+.container_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 637px;
+    height: 477px;
+    top: 64px;
+    left: 64px;
+    gap: 24px;
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 72px;
+        color: var(--color-2);
+    }
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 72px;
+        color: var(--color-2);
+    }
+    h3{
+        font-family: "Avenir-Heavy";
+        font-size: 72px;
+        color: var(--color-2);
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+        width: 519px;
+        height: 99px;
+        color: var(--color-3);
+    }
+    button{
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+        width: 182px;
+        height: 66px;
+        background: var(--color-2);
+        color: var(--color-1);
+        border: none;
+        border-radius: 36px;
+        cursor: pointer;
+    }
+}
+.imgs_vectors {
+}
+.img1 {
+    position: absolute;
+    top: 524px;
+    left: 383px;
+}
+.img2 {
+    position: absolute;
+    top: 282px;
+    left: 723px;
+}
+.img3 {
+    position: absolute;
+    top: 67px;
+    left: 1063px;
+}
+.vector1 {
+    position: absolute;
+    top: 91px;
+    left: 498px;
+}
+.vector2 {
+    position: absolute;
+    top: 541px;
+    left: 1095px;
+}
+.vector3 {
+    position: absolute;
+    top: 388px;
+    left: 596px;
+}
+.vector4{
+    position: absolute;
+    top: 674px;
+    left: 142px;
+}
+.container_card {
+    position: absolute;
+    display: flex;
+    width: 668px;
+    height: 122px;
+    top: 838px;
+    left: 708px;
+    align-items: center;
+    gap: 24px;
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+        color: var(--color-3);
+    }
 }
