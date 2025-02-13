@@ -1,10 +1,20 @@
 :root{
     --color-1: #FFFFFF;
     --color-2: #D9D9D9;
-    --color-3: #252525;
-    --color-4: #252525;
+    --color-3: rgba(99, 225, 225, 1);
+    --color-gradient-1: linear-gradient(127deg, rgba(0, 0, 0, 0.5), rgba(39, 39, 39, 0.15) 80% );
+    --color-gradient-1:  linear-gradient(to right, #9ba44d 20%, #4fc7ac 20% 40%, #4ea74d 40% 60%, #9f5756 60% 80%, #2932a3 80%);;
+    --color-gradient-fond: linear-gradient(145deg, rgba(9, 33, 44, 1), rgba(4, 62, 73, 1));
 }
 @font-face {
-    font-family: "Quicksand-Regular";
-    src: url(../storage/font/Quicksand-Regular.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
 }
