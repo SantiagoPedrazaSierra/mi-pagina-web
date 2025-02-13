@@ -12,4 +12,7 @@
     font-family: "Lato-Regular";
     src: url(../storage/font/Lato-Regular.ttf);
 }
-
+@font-face {
+    font-family: "Lato-Light";
+    src: url(../storage/font/Lato-Light.ttf);
+}
