@@ -1,6 +1,125 @@
-@import url(variable.css);
+@import url(variables.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.container_main {
+    position: relative;
+    width: 1440px;
+    height: 1133px;
+    margin: 0 auto;
+}
+.container_text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 698px;
+    height: 322px;
+    top: 110px;
+    left: 371px;
+
+    h1{
+        font-family: "times-new-roman-bold";
+        font-size: 72px;
+    }
+    p{
+        font-family: "times-new-roman";
+        font-size: 24px;
+        width: 433px;
+        height: 64px;
+    }
+    button{
+        border-radius: 36px;
+        border: none;
+        background-color: var(--color-2);
+        color: var(--color-1);
+        font-family: "Poppins-Regular";
+        font-size: 16px;
+        cursor: pointer;
+        width: 121px;
+        height: 50px;
+    }
+}
+.container_textleft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 177px;
+    height: 174px;
+    top: 480px;
+    left: 90px;
+    border-bottom: 4px solid;
+    padding-bottom: 16px;
+    p{
+        font-family: "times-new-roman-italic";
+        font-size: 28px;
+
+    }
+}
+.container_textrigth {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 105px;
+    height: 174px;
+    top: 895px;
+    left: 1246px;
+    border-bottom: 4px solid;
+    padding-bottom: 16px;
+    p{
+        font-family: "times-new-roman-italic";
+        font-size: 32px;
+    }
+}
+.container_vectorleft {
+    position: absolute;
+    top: 118px;
+    left: 71px;
+}
+.container_vectorrigth {
+    position: absolute;
+    top: 118px;
+    left: 1019px;
+}
+.container_imgcenter {
+    position: absolute;
+    top: 487px  ;
+    left: 575px;
+}
+.container_imgcenterleft {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 487px;
+    left: 294px;
+    img{
+        width: 257px;
+        height: 273px;
+    }
+}
+.container_imgcenterrigth {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 528px;
+    left: 890px;
+    img{
+        width: 257px;
+        height: 273px;
+    }
+}
+.container_imgleft {
+    position: absolute;
+    top: 717px;
+    left: 90px;
+}
+.container_imgrigth {
+    position: absolute;
+    top: 613px;
+    left: 1171px;
 }
