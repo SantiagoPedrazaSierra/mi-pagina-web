@@ -1,0 +1,97 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 64px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+
+
+
+/*****Parte superior*****/
+.container_top {
+    display: flex;
+    width: 531px;
+    height: 208px;
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 88px;
+        color: var(--color-2);
+    }
+
+
+}
+
+
+/*****Parte superior*****/
+.container_bottom {
+    display: flex;
+
+}
+
+.option_1 {
+    display: flex;
+    width: 400px;
+    height: 549px;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: var(--color-4);
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+        color: var(--color-4);
+    }
+}
+.option_2 {
+    display: flex;
+    width: 400px;
+    height: 549px;
+    justify-content: space-between;
+    flex-direction: column;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: var(--color-4);
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+        color: var(--color-4);
+    }
+}
+.option_3 {
+    display: flex;
+    width: 400px;
+    height: 549px;
+    justify-content: space-between;
+    flex-direction: column;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: var(--color-4);
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+        color: var(--color-4);
+    }
+}
