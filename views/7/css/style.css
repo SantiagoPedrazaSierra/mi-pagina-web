@@ -1,0 +1,58 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+    
+}
+.container_text {
+    display: flex;
+    width: 833px;
+    height: 176px;
+    h1{
+        color: var(--color-2);
+        font-family: "Avenir-Heavy";
+        font-size: 72px;
+    }
+}
+.container_cards {
+    display: flex;
+    gap: 16px;
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    .text{
+        width: 316px;
+        height: 133px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        h2{
+            font-family: "Avenir-Roman";
+            font-size: 40px;
+            color: var(--color-4);
+        }
+        p{
+            font-family: "Avenir-Roman";
+            font-size: 24px;
+            color: var(--color-3);
+        }
+    }
+    
+}
