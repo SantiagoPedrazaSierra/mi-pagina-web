@@ -1,0 +1,111 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(11, 11, 11);
+}
+.container_main{    
+    width: 1440px;
+    height: 1446px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    
+}
+.container_hero{
+    position: relative;
+}
+.container_img{
+    width: 1440px;
+    height: 1012px;
+    position: absolute;
+    background: rgba(37, 37, 37, 0.25);
+   
+}
+.container_text{
+    width: 637px;
+    height: 327px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 343px;
+    margin-left: 402px;
+    text-align: center;
+    h1{
+        width: 637px;
+        height: 88px;
+        font-size: 96px;
+        font-family: "Lato-Bold";
+        color: var(--color-1);
+        
+    }
+    p{
+        width: 549px;
+        height: 93px;
+        font-size: 26px;
+        font-family: "Lato-Regular";
+        color: var(--color-1);
+        margin-top: 40px;
+        margin-left: 44px;
+    }
+    button{
+        width: 175px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Lato-Medium";
+        background: var(--color-1);
+        color: var(--color-2);
+        border-radius: 36px;
+        margin-top: 40px;
+    }
+}
+
+.container_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+   
+}
+
+.img {
+    position: relative; 
+    width: 480px;
+    height: 524px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2); 
+}
+
+.text {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    height: auto; 
+    color: var(--color-1);
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+
+        
+    h3{
+        width: 316px;
+        height: 38px;
+        font-size: 32px;
+        font-family: "Lato-ExtraBold";
+        color: var(--color-1);
+        margin-left: 64px;
+    }
+    p{
+        width: 316px;
+        height: 58px;
+        font-size: 24px;
+        font-family: "Lato-Light";
+        color: var(--color-1);
+        margin-left: 64px;
+    }
+}
+
