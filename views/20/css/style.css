@@ -1,0 +1,109 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--color-3);
+}
+.container_main{
+    width: 1440px;
+    height: 1345px;
+    margin: 0 auto;
+    padding-top: 157px;
+}
+.container_text{
+    margin-left: 126px;
+    width: 464px;
+    height: 498px;
+    h1{
+        width: 464px;
+        height: 240px;
+        font-size: 70px;
+        font-family: "PlayfairDisplay-Bold";
+        color: var(--color-2);
+        
+    }
+    p{
+        font-size: 24px;
+        font-family: "PlayfairDisplay-Regular";
+        color: var(--color-2);
+        margin-top: 45px;
+        
+        
+    };
+    button{
+        width: 179px;
+        height: 66px;
+        font-size: 24px;
+        font-family: "Avenir-Roman";
+        background: var(--color-7);
+        border-radius: 36px;
+        color: var(--color-3);
+        margin-top: 32px
+    } ;
+}
+.container_text img{
+    /* background: turquoise; */
+    margin-left: 600px;
+    width: 592px;
+    height: 592px;
+    margin-top: -580px;
+    margin-right: 64px;
+}
+.container_list{
+    background: var(--color-8);
+    width: 878px;
+    height: 188px;
+    margin-left: 281px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 55px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    border-radius: 80px;
+    color: var(--color-2);
+   
+}
+.list{
+    margin: auto;
+}
+.list img{
+    width: 36px;
+    height: 36px;
+    
+}
+.list h3{
+    margin-left: 48px;
+    width: 74px;
+    height: 48px;
+    font-size: 32px;
+    font-family: "Poppins-SemiBold";
+}
+.list p{
+    width: 170px;
+    height: 48px;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+}
+.container_cards{
+    background: var(--color-6);
+    width: 1440px;
+    height: 472px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 157px;
+    position: relative;
+
+}
+.container_cards img{
+    width: 186px;
+    height: 286px;
+    /* background: orange; */
+    margin-top: 130px;
+    margin-left: 45px;
+    gap: 96px;
+}
