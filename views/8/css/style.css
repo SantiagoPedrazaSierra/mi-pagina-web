@@ -1,0 +1,56 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(156, 32, 4, 1);
+}
+.container_main{
+    position: relative;
+    margin: 0 auto;
+    width: 1440px;
+    height: 926px;
+}
+.container_img {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 64px;
+    left: 64px;
+}
+.container_text {
+    position: absolute;
+    width: 487px;
+    display: flex;
+    flex-direction: column;
+    top:134px ;
+    left:889px ;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 487px;
+    height: 674px;
+    h1{
+        font-family: "QWorkSans-Bold";
+        font-size: 88px;
+        color: var(--color-1);
+    }
+    p{
+        font-family: "WorkSans-Light";
+        font-size: 24px;
+        color: var(--color-1);
+    }
+    button{
+        width: 231px;
+        height: 82px;
+        border: none;
+        border-radius: 36px;
+        background: var(--color-3);
+        font-family: "WorkSans-Medium";
+        font-size: 32px;
+    }
+}
