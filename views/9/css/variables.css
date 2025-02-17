@@ -1,0 +1,21 @@
+:root{ 
+    --color-1: white;
+    --color-2: #363830;
+    --color-fondo:rgba(200, 204, 207, 1);
+ }
+
+ @font-face {
+    font-family: "Poppins-Bold";
+    src: url(../storage/font/Poppins-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../storage/font/Poppins-SemiBold.ttf);
+ }
+
+
+ @font-face {
+    font-family: "Poppins-Regular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+ }

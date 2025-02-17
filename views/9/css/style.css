@@ -1,0 +1,103 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: var(--color-fondo);
+}
+
+.container_main {
+    width: 1440px;
+    height: 926px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.img_rigth {
+    position: absolute;
+    top: 0;
+    left: 838.6px;
+    height: 0px;
+    width: 537.4px;
+    height: 512px;
+    z-index: -1;
+}
+.container_text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 295px;
+    top: 64px;
+    width: 756px;
+    height: 310px;
+    position: absolute;
+    
+    h1{
+        font-family: "Poppins-Bold";
+        font-size: 88px;
+        color: var(--color-2);
+    }
+    p{
+        width: 659px;
+        height: 108px;
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+        color: var(--color-2);
+    }
+    button{
+        width: 182px;
+        padding: 12px;
+        background-color: var(--color-2);
+        border: none;
+        color: var(--color-1);
+        font-family: "Poppins-Regular";
+        font-size: 24px;
+        border-radius: 36px;
+        cursor:pointer;
+    }
+}
+
+.img_left {
+    left: 64px;
+    top: 418px;
+    width: 462px;
+    height: 508px;
+    position: absolute;
+    z-index: -1;
+}
+.container_list {
+    border-radius: 144px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.3) 0%,rgba(255, 255, 255, 0.3) 100%);
+    gap: 80px;
+    width: 948px;
+    height: 272px;
+    top: 591px;
+    left: 428px;
+}
+.list {
+    display: flex;
+    width: 204px;
+    height: 192px;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--color-2);
+    h2{
+        display: flex;
+        border-bottom: 4px solid var(--color-2);
+        padding-bottom: 16px;
+        width: 38px;
+        font-family: "Poppins-SemiBold";
+        font-size: 24px;
+        
+    }
+    p{
+        font-family: "Poppins-Regular";
+        font-size: 16px;
+    }
+}
