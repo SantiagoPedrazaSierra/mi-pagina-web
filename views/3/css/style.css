@@ -1,0 +1,68 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/********Parte superior*******/
+.container_top {
+    display: flex;
+    justify-content: center;
+}
+.container_text {
+    display: flex;
+    flex-direction: row;
+    gap: 113px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    width: 674px;
+    height: 80px;
+    margin-top: 122px;
+    color: var(--color-2);
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 88px;
+    }
+}
+.lorem_button {
+    display: flex;
+    flex-direction: column;
+    width: 526px;
+    height: 174px;
+    margin-top: 122px;
+    justify-content: space-between;
+    color: var(--color-2);
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 26px;
+    }
+    button{
+        font-family: "Avenir-Roman";
+        width: 157px;
+        height: 50px;
+        border-radius: 16px;
+        border: none;
+        color: var(--color-1);
+        background: var(--color-2);
+
+
+    }
+}
+
+/********Parte inferior*******/
+.container_bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 56px;
+}
+.container_img {
+}
