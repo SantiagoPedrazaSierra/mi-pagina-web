@@ -1,0 +1,114 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: var(--color-4);
+}
+
+.container_main{
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.container_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 539px;
+    height: 582px;
+    z-index: 2;
+    position: absolute;
+    top: 181px;
+    left: 100px;
+    h1 {
+        font-family: "Montserrat-ExtraBold" ;
+        font-size: 64px;
+        color:var(--color-1);
+        
+    }
+    h1 span{
+        color: var(--color-3);
+    }
+    p{
+        font-family: "Montserrat-Regular" ;
+        color: var(--color-1);
+        font-size: 24px;
+    }
+    button{
+        background-color: var(--color-3);
+        color: var(--color-1);
+        width: 280px;
+        height: 66px;
+        top: 90px;
+        border-radius: 30px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-family: "Montserrat-Medium";
+        font-size: 22px;
+    }
+}
+
+.flexburgers {
+    width: 536px;
+    height: 104px;             
+    gap: 0px;               
+}
+
+.flexburgers img {
+    width: 104px;
+    height: 104px;  
+    max-width: 100%;         
+    height: auto;            
+    margin-right: -35px;   
+}
+
+
+.container_hamburguesa{
+    width: 1057.55px;
+    height: 1163.3px;
+    position: absolute;
+    top: -62.3px;
+    left: 441.46px;
+    z-index: -1;
+}
+ 
+.container_span{
+    width: 1112px;
+    height: 101px;
+    z-index: 2;
+    top: 859px;
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    display: flex;
+    gap: 16px;
+    display: flex;
+
+        
+}    
+
+.option{
+    width: 360px;
+    height: 101px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background: linear-gradient(to right, #979797,  transparent);
+    color: white;
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-size: 20px;
+    font-family: "Montserrat-SemiBold";
+    cursor: pointer;   
+}    
