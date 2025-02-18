@@ -1,0 +1,7 @@
+:root{
+    --color-1: #E5E5E5;
+}
+@font-face {
+    font-family: "RobotoMono-Bold";
+    src: url(../storage/font/RobotoMono-Bold.ttf);
+}
