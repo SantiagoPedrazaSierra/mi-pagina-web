@@ -1,0 +1,120 @@
+@import url(variables.css);
+
+
+*{
+    margin: 0; 
+    padding: 0; 
+    /*outline: 1px solid tomato;*/
+}
+
+
+body{
+    background: rgba(232, 217, 214, 1);
+}
+
+.container{
+    width: 1440px;
+    height: 1070px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imgbackgroundA{
+    position: absolute;
+    top: 0;
+    left: 507px;
+}
+
+.imgbackgroundB{
+    position: absolute;
+    top: 0px;
+    left: 700px;
+    z-index: -1;
+    img{
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+    }
+}
+
+.imgbackgroundC{
+    position: absolute;
+    left: 50px;
+    top: 56px;
+
+}
+
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+    left: 64px;
+    top: 272px;
+    position: absolute;
+    width: 574px;
+    height: 368px;
+    gap: 32px;
+
+    h1{
+        font-family: "Poppins-Bold";
+        font-size: 112px;
+        color: rgba(39, 25, 8, 1);
+        height: 139px;
+
+    }
+    p{
+        font-family: "Poppins-Regular" ;
+        font-size: 24px;
+        color: #252525;
+
+    }
+
+    button{
+        font-family: "Poppins-Regular" ;
+        font-size: 22px;
+        color: #ffffff;
+        width: 227px;
+        height: 66px;
+        background-color:#271908 ;
+        border-radius: 40px;
+        cursor: pointer;
+    
+    }
+
+}
+
+.flexcontainer{
+
+    position: absolute;
+    left: 64px;
+    top: 811px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    
+    .flexitems{
+        width: 426px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 81px ;
+        align-items: center;
+        background: linear-gradient(0deg,
+        rgba(255, 253, 252, 0.2)0%,
+        rgba(255, 253, 252, 1)100%);
+
+        h2{
+            font-family: "Poppins-SemiBold" ;
+            font-size: 40px;
+            padding-bottom: 8px;
+            padding-left: 30px;
+        }
+
+        p{
+            font-family: "Poppins-Regular" ;
+            font-size: 18px;
+            
+            padding-left: 30px;
+            padding-right: 45px;
+        }
+    }
+
+}
