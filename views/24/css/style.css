@@ -1,0 +1,102 @@
+@import url(variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container_main{    
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.container_text {
+    position: absolute;
+    width: 684px;
+    height: 454px;
+    left: 64px;
+    top: 103px;
+    
+    h1{
+        font-size: 65px;
+        font-family: "ZillaSlab-Medium";
+        width: 511px;
+        height: 148px;
+        color: var(--color-5);
+    }
+    h2{
+        font-size: 62px;
+        font-family: "ZillaSlab-Medium";
+        width: 379px;
+        height: 148px;
+        color: var(--color-5);
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    p{
+        font-size: 24px;
+        font-family: "ZillaSlab-Regular";
+        width: 463px;
+        height: 136px;
+        color: var(--color-5);
+        margin-top: 32px;
+        
+    }
+    button{
+        font-size: 22px;
+        font-family: "ZillaSlab-Medium";
+        width: 200px;
+        height: 66px;
+        border-radius: 40px;
+        background: var(--color-2);
+        color: var(--color-5);
+        margin-top: 32px;
+        border: none;
+    }
+}
+.yellow{
+    color: var(--color-2);
+}
+.container_list {
+    position: absolute;
+    width: 607px;
+    height: 179px;
+    left: 64px;
+    top: 781px;
+    display: flex;
+    gap: 20px;
+}
+.text_list {
+    width: 189px;
+    height: 179px;
+    padding-left: 48px;
+    padding-top: 24px;
+    backdrop-filter: blur(10px);
+    background: var(--color-4);
+    border-radius: 18px;
+    
+    h3{
+        font-size:  22px;
+        font-family: "ZillaSlab-Bold";
+        width: 40px;
+        height: 27px;
+        color: var(--color-1);
+    }
+    p{
+        font-size: 15px;
+        font-family: "ZillaSlab-Regular";
+        width: 93px;
+        height: 60px;
+        color: var(--color-1);
+        margin-top: 16px;
+    }
+}
+.container_img{
+    position: absolute;
+    width: 871.48px;
+    height: 983.31px;
+    top: 0px;
+    left: 534px;
+}

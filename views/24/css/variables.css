@@ -1,0 +1,25 @@
+:root{
+    --color-1: #FFFFFF;
+    --color-2: #E3B635;
+    --color-3: #333333;
+    --color-4: #242424;
+    --color-5: #252525; 
+}
+
+
+@font-face {
+    font-family: "ZillaSlab-Bold";
+    src: url(../storage/font/ZillaSlab-Bold.ttf);
+}
+@font-face {
+    font-family: "ZillaSlab-Regular";
+    src: url(../storage/font/ZillaSlab-Regular.ttf);
+}
+@font-face {
+    font-family: "ZillaSlab-Medium";
+    src: url(../storage/font/ZillaSlab-Medium.ttf);
+}
+@font-face {
+    font-family: "ZillaSlab-Light";
+    src: url(../storage/font/ZillaSlab-Light.ttf);
+}
